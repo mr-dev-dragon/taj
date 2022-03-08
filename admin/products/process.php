@@ -4,7 +4,7 @@
 <?php
 session_start();
 $addbtn = true;
-$mysqli = new mysqli('localhost', 'root', '', 'Database_e-commerce') or die(mysqli_error($mysqli));
+$mysqli = new mysqli('localhost', 'root', '123', 'Database_e-commerce') or die(mysqli_error($mysqli));
 $id = 0;
 
 if (isset($_POST['save'])){
